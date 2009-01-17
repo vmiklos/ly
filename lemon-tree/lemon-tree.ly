@@ -9,7 +9,8 @@
 
 #(set-global-staff-size 15)
 
-% this macro is a workaround, replaces 7+ with an arpeggio next to a chord
+% a bit complex macro, writing '5.15' after a chord displays an arpeggio
+% next to it
 % the \override removes vertical space between lines
 arpeggioGuitar = \markup \override #'(baseline-skip . -2 ) {
         \musicglyph #"space"
@@ -23,15 +24,24 @@ arpeggioGuitar = \markup \override #'(baseline-skip . -2 ) {
         }
 }
 
+chExceptionMusic =  {
+	<c ees g c''>1-\markup {m \super \arpeggioGuitar }
+	<c e g c''>1-\markup { \super \arpeggioGuitar }
+}
+
+chExceptions = #( append
+	(sequential-music-to-chord-exceptions chExceptionMusic #t)
+	ignatzekExceptions)
+
 \score {
         <<
         \chords {
                 \germanChords
-                \set majorSevenSymbol = \arpeggioGuitar
-                e2:m b:m e1:m7+ e2:m e:m b:m b:m e:m e:m
+		\set chordNameExceptions = #chExceptions
+                e2:m b:m e1:m5.15 e2:m e:m b:m b:m e:m e:m
                 b:m b:m e:m e:m b:m b:m e:m e:m
                 b:m b:m e:m e:m b:m b:m e1:m
-                e1:m7+ e1:m7+ g2 g2 d2 d2 e:m e:m
+                e1:m5.15 e1:m5.15 g2 g2 d2 d2 e:m e:m
                 b:m b:m c c d d g g d d
                 g g d d e:m e:m
                 b:m b:m c c a:7 a:7 d d d d
