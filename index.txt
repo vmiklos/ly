@@ -1,2 +1,7 @@
 * link:lemon-tree/lemon-tree.html[Fool's Garden - Lemon Tree]
 * link:greenfields/greenfields.html[The Brothers Four - Greenfields]
+
+NOTE: I created these myself, they may not be totally correct, and they
+also may contains differences to the 'official' versions on purpose, in
+case I play something differently. Take care about these when you use
+them.
