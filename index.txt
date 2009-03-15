@@ -1,5 +1,5 @@
 * link:greenfields/greenfields.html[The Brothers Four - Greenfields]
-* link:ha-lehetne/ha-lehetne.html[Sillye Jenı - Ha lehetne]
+* link:ha-lehetne/ha-lehetne.html[Sillye Jen≈ë - Ha lehetne]
 * link:lemon-tree/lemon-tree.html[Fool's Garden - Lemon Tree]
 
 NOTE: I created these myself, they may not be totally correct, and they
