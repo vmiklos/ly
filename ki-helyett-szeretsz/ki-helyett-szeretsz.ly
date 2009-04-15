@@ -6,7 +6,7 @@
 	tagline = "Engraved by LilyPond - http://vmiklos.hu/ly"
 }
 
-#(set-global-staff-size 15)
+#(set-global-staff-size 14.5)
 
 replaceCN =  #(define-music-function (parser location new) (markup?) #{\once \override ChordNames.ChordName #'stencil =    #(lambda (grob) (grob-interpret-markup grob $new)) #})
 BmsusA = \markup {Hm \super "omit3"/A}
@@ -39,10 +39,18 @@ CaddNine = \markup {C \super "add9"}
 		fis16 e fis8 g16 fis( fis4) g16( fis e fis) |
 		e16 e8. e16 e d e( e16) e8. r4 | e16 e8. e16 d8. e8 b'4 b8 |
 		b16 g8. g16 fis8. fis8 g16 fis( fis8) e | fis fis16 fis( fis8) fis16 fis( fis) fis8. r4 |
-		e16 e e8 e16 e8 e16 e8 e4 r8 | r4 e4 \times 2/3 {e8 e8. e16} e16 e8. |
-		r4 g16 g8 e16 g16 g8. g16 g8. | r4 g16 fis e fis( fis) fis8. g16 fis e fis |
+		e16 e e8 e16 e8 e16 e8 e4 r8 | r4 e4
+		^\markup \fret-diagram #"f:2;6-o;5-o;4-4-2;3-4-3;2-o;1-o;"
+		\times 2/3 {e8 e8. e16} e16 e8. |
+		r4
+		^\markup \fret-diagram #"f:2;6-o;5-o;4-4-2;3-4-3;2-o;1-o;"
+		g16 g8 e16 g16 g8. g16 g8. | r4 g16 fis e fis( fis) fis8. g16 fis e fis |
 		\repeat volta 2 {
-			e2. g16 fis e fis | e2. g16 fis e fis |
+			e2.
+			^\markup \fret-diagram #"f:2;6-x;5-3-2;4-2-1;3-o;2-3-3;1-x;"
+			g16 fis e fis | e2.
+			^\markup \fret-diagram #"f:2;4-o;3-2-1;2-3-2;1-o;"
+			g16 fis e fis |
 			d4 dis8 b( b4) g'16 fis e fis |
 		}
 		\alternative {
