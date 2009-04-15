@@ -1,0 +1,15 @@
+== Ákos - Ki helyett szeretsz?
+
+image:ki-helyett-szeretsz.png[]
+
+* link:ki-helyett-szeretsz.pdf[PDF]
+* link:ki-helyett-szeretsz.ogg[Ogg Vorbis]
+
+
+* link:ki-helyett-szeretsz.midi[MIDI]
+* link:ki-helyett-szeretsz.ps[PostScript]
+
+
+* link:ki-helyett-szeretsz.ly[Lilypond]
+* link:ki-helyett-szeretsz.txt[AsciiDoc]
+* link:Makefile[Makefile]
