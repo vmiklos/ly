@@ -8,22 +8,23 @@
 
 #(set-global-staff-size 15)
 
+replaceCN =  #(define-music-function (parser location new) (markup?) #{\once \override ChordNames.ChordName #'stencil =    #(lambda (grob) (grob-interpret-markup grob $new)) #})
+BmsusA = \markup {Hm \super "omit3"/A}
+EmsusNine = \markup {E \super "sus9"}
+CaddNine = \markup {C \super "add9"}
+
 \score {
 	<<
 	\chords {
 		\germanChords
-		e1:sus4 g e:m b:m
-	%	e2:m b:m e1:m5.15 e2:m e:m b:m b:m e:m e:m
-	%	b:m b:m e:m e:m b:m b:m e:m e:m
-	%	b:m b:m e:m e:m b:m b:m e1:m
-	%	e1:m5.15 e1:m5.15 g2 g2 d2 d2 e:m e:m
-	%	b:m b:m c c d d g g d d
-	%	g g d d e:m e:m
-	%	b:m b:m c c a:7 a:7 d d d d
-	%	e:m e:m b:m b:m e:m e:m b:m b:m a:m a:m b:m b:m e:m e:m
-	%	b:7 b:7 b:7 b:7 e:m e:m e:m e:m d d d d g g
-	%	b:7 b:7 c c d d c c
-	%	d d c c d1 g1
+		e1:sus4 g e:m \replaceCN \BmsusA b:m
+		e:sus4 g e:m \replaceCN \BmsusA b:m
+		e:sus4 \replaceCN \EmsusNine e:sus9 a:m9 \replaceCN \EmsusNine e:sus9
+		\replaceCN \CaddNine c a:sus4 b a:m9 a:m9
+		e:sus4 g e:m \replaceCN \BmsusA b:m
+		e:sus4 g e:m \replaceCN \BmsusA b:m
+		e:sus4 \replaceCN \EmsusNine e:sus9 a:m9 \replaceCN \EmsusNine e:sus9
+		\replaceCN \CaddNine c a:sus4 b a:m9 a2:m9 e:m
 	}
 	\tempo 4 = 85
 	\relative c'
