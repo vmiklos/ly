@@ -12,7 +12,7 @@
 	<<
 	\chords {
 		\germanChords
-		e4:4
+		e1:sus4 g e:m b:m
 	%	e2:m b:m e1:m5.15 e2:m e:m b:m b:m e:m e:m
 	%	b:m b:m e:m e:m b:m b:m e:m e:m
 	%	b:m b:m e:m e:m b:m b:m e1:m
@@ -33,7 +33,9 @@
 		e8.
 		^\markup \fret-diagram #"f:2;6-o;5-o;4-2-2;3-2-3;2-o;1-o;"
 		e16( e8) e8 e16 d e8 r4 | e8 e e16 e8 e16 e8 e( b'4) |
-		b8 a g16 g8 fis16 fis g e8 r8. e16 | fis8 fis16 e fis8 g16 fis( fis4) g16( fis e fis) |
+		b8 a g16 g8 fis16 fis g e8 r8. e16 | fis8
+		^\markup \fret-diagram #"f:2;5-o;4-4-3;3-4-4;2-o;1-2-1;"
+		fis16 e fis8 g16 fis( fis4) g16( fis e fis) |
 		e16 e8. e16 e d e( e16) e8. r4 | e16 e8. e16 d8. e8 b'4 b8 |
 		b16 g8. g16 fis8. fis8 g16 fis( fis8) e | fis fis16 fis( fis8) fis16 fis( fis) fis8. r4 |
 		e16 e e8 e16 e8 e16 e8 e4 r8 | r4 e4 \times 2/3 {e8 e8. e16} e16 e8. |
