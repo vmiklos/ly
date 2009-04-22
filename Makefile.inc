@@ -18,3 +18,6 @@ all: $(NAME).html $(NAME).midi $(NAME).pdf $(NAME).png $(NAME).ps $(NAME).ogg
 
 clean:
 	rm -f *.html *.midi *.pdf *.png *.ps *.ogg
+
+upload:
+	rsync -avP ./ vmiklos.hu:/home/vmiklos/ftp/vmiklos.hu/htdocs/ly/$(NAME)/
