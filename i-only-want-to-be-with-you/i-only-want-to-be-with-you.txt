@@ -1,0 +1,15 @@
+== The Bay City Rollers - I Only Want To Be With You
+
+image:i-only-want-to-be-with-you.png[]
+
+* link:i-only-want-to-be-with-you.pdf[PDF]
+* link:i-only-want-to-be-with-you.ogg[Ogg Vorbis]
+
+
+* link:i-only-want-to-be-with-you.midi[MIDI]
+* link:i-only-want-to-be-with-you.ps[PostScript]
+
+
+* link:i-only-want-to-be-with-you.ly[Lilypond]
+* link:i-only-want-to-be-with-you.txt[AsciiDoc]
+* link:Makefile[Makefile]
