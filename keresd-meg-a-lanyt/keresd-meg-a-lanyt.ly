@@ -37,17 +37,6 @@ chExceptions = #( append
 	\chords {
 		\germanChords
 		\set chordNameExceptions = #chExceptions
-		%e2:m b:m e1:m5.15 e2:m e:m b:m b:m e:m e:m
-		%b:m b:m e:m e:m b:m b:m e:m e:m
-		%b:m b:m e:m e:m b:m b:m e1:m
-		%e1:m5.15 e1:m5.15 g2 g2 d2 d2 e:m e:m
-		%b:m b:m c c d d g g d d
-		%g g d d e:m e:m
-		%b:m b:m c c a:7 a:7 d d d d
-		%e:m e:m b:m b:m e:m e:m b:m b:m a:m a:m b:m b:m e:m e:m
-		%b:7 b:7 b:7 b:7 e:m e:m e:m e:m d d d d g g
-		%b:7 b:7 c c d d c c
-		%d d c c d1 g1
 		a2:m a:m g g c c e:sus4 e:sus4 a:m a:m
 		g g c c d d a:m a:m g g
 		c c e:sus4 e:sus4 a:m a:m g g c c
@@ -59,6 +48,7 @@ chExceptions = #( append
 		a2:m a:m a:m a:m a:m a:m a:m a:m
 		g g g g g g g g f f
 		f f d:m d:m d:m d:m e e e1:5.15 e2 e e1:5.15
+		g2 g c d c g:5.15
 	}
 	\tempo 4 = 144
 	{
@@ -74,23 +64,23 @@ chExceptions = #( append
 		c'8( b4.) c'8( b4.) | c'4 r r2 | c'8( b4.) c'8( b4.) | c'4 r r c'8 a| b2 b2(| b2.)( gis4)| e2 r| r r4 r8 a|
 		c' c' c' b c'4 r | r1 | c'8 c' c' b c'4 r | r r8 c' c'4 e' |
 		d' b8 b4. b4 | r1 | r1 | r2 r4 c'8 b | c' c' c' b c'( b4.) |
-		c'4 r r2 | c'4.( c'8)( c'2) | r c'8 c' a( b) | r1 | r2 r8 gis4 gis8 | e4 r4 r2 | r1
+		c'4 r r2 | c'4.( c'8)( c'2) | r c'8 c' a( b) | r1 | r2 r8 gis4 gis8 | e4 r4 r2 | r1 | \bar "||"
+		b4 g r8 a4 g8 | g4 r r2 | r1
 	}
-	%\addlyrics {
-		% workaround because \skip 5 won't work
-		%\skip 1 \skip 1 \skip 1 \skip 1 \skip 1
-		%I'm sit- ting here in the bor- ing room It's just an- oth- er rain- y Sun- day
-		%af- ter- noon I'm wast- ing my time I got noth- ing to do I'm hang- ing a- round I'm
-		%wait- ing for you But noth- ing ev- er hap- pens And I won- der
-		%I'm I wond- der how I won- der why Yes- ter- day you told me 'bout the
-		%blue blue sky And all that I can see is just a yel- low lem- on tree I'm
-		%turn- ing my head up and down I'm turn- ing turn- ing turn- ing turn- ing
-		%turn- ing a- round And all that I can see is just an- oth- er lem- on tree
-		%Da  da da da da da da da  da da da da da da da da  da da da da
-		%I- so- la- tion is not good for me I- so- la- tion I don't want to
-		%sit on the lem- on tree All that I can see, and all that I can
-		%see, and all that I can see Just a yel- low lem- on tree
-	%}
+	\addlyrics {
+		Em- lék- szel még u- gye A ka- masz é- ve- ink- re A- hogy e- gyütt volt az a
+		né- hány jó- ba- rát De nosz- tal- gi- kus a nó- ta, mert
+		szét- szé- ledt a- zó- ta Az a szép- re- mé- nyű, jó kis tár- sa- ság
+		És em- lék- szel, u- gye a lány- ra A- ki oly so- ká- ig vár- ta Hogy
+		be- le- sze- res- sen vég- re va- la- ki A-ha-a Shogy a va- la- ki te let- tél Ar- ról
+		nem is i- gen te- het- tél De a- zért nem kel- lett ne- ked két- szer mond- da- ni- i-i-i
+		El- men- tek, el- men- tek a ré- gi ba- rá- tok És
+		nem jön- nek, nem jön- nek so- ha visz- sza már Te
+		ke- resd meg a lányt, ke- resd meg a lányt T- duom, hogy
+		meg- ta- lá- lod Ki- csit ha- rag- szik u-gyan
+		rád, rá- ád De a- zért visz- sza- vár
+		né- hány jó- ba- rát
+	}
 	>>
 	\midi{}
 	% avoid the indent in the first line
