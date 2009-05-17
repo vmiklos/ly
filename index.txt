@@ -2,7 +2,7 @@
 * link:ha-lehetne/ha-lehetne.html[Ha lehetne]
 * link:i-only-want-to-be-with-you/i-only-want-to-be-with-you.html[I Only
   Want To Be With You]
-* link:keresd-meg-a-lanyt/keresd-meg-a-lanyt.html[Keresd meg a l·nyt]
+* link:keresd-meg-a-lanyt/keresd-meg-a-lanyt.html[Keresd meg a l√°nyt]
 * link:ki-helyett-szeretsz/ki-helyett-szeretsz.html[Ki helyett
   szeretsz?]
 * link:lemon-tree/lemon-tree.html[Lemon Tree]
