@@ -1,0 +1,15 @@
+== Ákos - Keresd meg a lányt
+
+image:keresd-meg-a-lanyt.png[]
+
+* link:keresd-meg-a-lanyt.pdf[PDF]
+* link:keresd-meg-a-lanyt.ogg[Ogg Vorbis]
+
+
+* link:keresd-meg-a-lanyt.midi[MIDI]
+* link:keresd-meg-a-lanyt.ps[PostScript]
+
+
+* link:keresd-meg-a-lanyt.ly[Lilypond]
+* link:keresd-meg-a-lanyt.txt[AsciiDoc]
+* link:Makefile[Makefile]
