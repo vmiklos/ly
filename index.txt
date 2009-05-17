@@ -9,3 +9,7 @@
 NOTE: I created these myself, they may not be totally correct, and they
 also may contain differences to the 'official' versions on purpose, in
 case I play something differently. Take care of these when you use them.
+
+If you are looking for examples, `lemon-tree` may serve as a good
+general giutar example, and `ki-helyett-szeretsz` may serve as a good
+example on how to describe custom chords.
