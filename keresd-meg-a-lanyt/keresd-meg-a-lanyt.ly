@@ -86,37 +86,22 @@ chExceptions = #( append
 	% avoid the indent in the first line
 	\layout{indent = 0\cm}
 }
-%\markup {
-%	\fill-line {
-%		\hspace #1.0
-%		\column {
-%			\line {(2. versszak) I'm driving around in my car}
-%			\line {I'm driving too fast, I'm driving too far}
-%			\line {I'd like to change my point of view}
-%			\line {I feel so lonely, I'm waiting for you}
-%			\line {But nothing ever happens and I wonder}
-%			\line {(refrén) I wonder how, I wonder why...}
-%			\line { \musicglyph #"space" }
-%			\line {I'm sitting here, I miss the power}
-%			\line {I'd like to go out taking a shower}
-%			\line {But there's a veavy cloud in my head}
-%			\line {I feel so tired, Put myself into bed}
-%			\line {While nothing ever happens and I wonder}
-%		}
-%		\hspace #2
-%		\column {
-%			\line {Isolation is not good for me...}
-%			\line { \musicglyph #"space" }
-%			\line {(3. vszak) I'm steppin' around in the desert of joy}
-%			\line {Baby anyhow I'll get another toy}
-%			\line {And everything will happen and you wonder}
-%			\line { \musicglyph #"space" }
-%			\line {I wonder how, I wonder why}
-%			\line {Yesterday you told me 'bout the blue blue sky}
-%			\line {And all that I can see, and all that I can see,}
-%			\line {and all that I can see}
-%			\line {Is just a yellow lemon-tree}
-%		}
-%		\hspace #1.0
-%	}
-%}
+\markup {
+	\fill-line {
+		\hspace #1.0
+		\column {
+			\line {(2. versszak) Értsd meg, kérlek}
+			\line {Szeret valóban téged}
+			\line {Pedig furcsa vagy néha igazán}
+			\line {Színjátékot ne tervezz}
+			\line {Nem kell semmilyen jelmez}
+			\line {Csak menj már, mert vár rád}
+			\line {Az a lány!}
+			\line { \musicglyph #"space" }
+			\line {Elmentek, elmentek a régi barátok...}
+			\line { \musicglyph #"space" }
+			\line {Emlékszel még ugye...}
+		}
+		\hspace #1.0
+	}
+}
