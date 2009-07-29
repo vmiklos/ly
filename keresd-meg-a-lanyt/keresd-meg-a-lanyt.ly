@@ -72,7 +72,7 @@ chExceptions = #( append
 		né- hány jó- ba- rát De nosz- tal- gi- kus a nó- ta, mert
 		szét- szé- ledt a- zó- ta Az a szép- re- mé- nyű, jó kis tár- sa- ság
 		És em- lék- szel, u- gye a lány- ra A- ki oly so- ká- ig vár- ta Hogy
-		be- le- sze- res- sen vég- re va- la- ki A-ha-a Shogy a va- la- ki te let- tél Ar- ról
+		be- le- sze- res- sen vég- re va- la- ki A-ha-a "S hogy" a va- la- ki te let- tél Ar- ról
 		nem is i- gen te- het- tél De a- zért nem kel- lett ne- ked két- szer mond- da- ni- i-i-i
 		El- men- tek, el- men- tek a ré- gi ba- rá- tok És
 		nem jön- nek, nem jön- nek so- ha visz- sza már Te
