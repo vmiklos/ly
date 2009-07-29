@@ -1,0 +1,15 @@
+== The Beatles - Can't Buy Me Love
+
+image:cant-buy-me-love.png[]
+
+* link:cant-buy-me-love.pdf[PDF]
+* link:cant-buy-me-love.ogg[Ogg Vorbis]
+
+
+* link:cant-buy-me-love.midi[MIDI]
+* link:cant-buy-me-love.ps[PostScript]
+
+
+* link:cant-buy-me-love.ly[Lilypond]
+* link:cant-buy-me-love.txt[AsciiDoc]
+* link:Makefile[Makefile]
