@@ -1,5 +1,6 @@
 * link:cant-buy-me-love/cant-buy-me-love.html[Can't Buy Me Love]
 * link:greenfields/greenfields.html[Greenfields]
+* link:ha-itt-lennel-velem/ha-itt-lennel-velem.html[Ha itt lennél velem]
 * link:ha-lehetne/ha-lehetne.html[Ha lehetne]
 * link:i-just-called-to-say-i-love-you/i-just-called-to-say-i-love-you.html[I
   Just Called to Say I Love You]
