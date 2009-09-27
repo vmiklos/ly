@@ -1,5 +1,7 @@
 = My LilyPond snippet repository
 
+* link:ly.pdf[All in one PDF]
+
 * link:cant-buy-me-love/cant-buy-me-love.html[Can't Buy Me Love]
 * link:greenfields/greenfields.html[Greenfields]
 * link:ha-itt-lennel-velem/ha-itt-lennel-velem.html[Ha itt lennél velem]
