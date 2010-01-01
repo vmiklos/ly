@@ -2,6 +2,8 @@
 
 * link:ly.pdf[All in one PDF]
 
+Individual pages:
+
 * link:boldog-szuletesnapot/boldog-szuletesnapot.html[Boldog
   születésnapot!]
 * link:cant-buy-me-love/cant-buy-me-love.html[Can't Buy Me Love]
