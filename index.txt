@@ -4,21 +4,17 @@
 
 Individual pages:
 
-* link:boldog-szuletesnapot/boldog-szuletesnapot.html[Boldog
-  születésnapot!]
-* link:cant-buy-me-love/cant-buy-me-love.html[Can't Buy Me Love]
-* link:greenfields/greenfields.html[Greenfields]
-* link:ha-itt-lennel-velem/ha-itt-lennel-velem.html[Ha itt lennél velem]
-* link:ha-lehetne/ha-lehetne.html[Ha lehetne]
-* link:i-just-called-to-say-i-love-you/i-just-called-to-say-i-love-you.html[I
-  Just Called to Say I Love You]
-* link:i-only-want-to-be-with-you/i-only-want-to-be-with-you.html[I Only
-  Want To Be With You]
-* link:kell-meg-egy-szo/kell-meg-egy-szo.html[Kell még egy szó]
-* link:keresd-meg-a-lanyt/keresd-meg-a-lanyt.html[Keresd meg a lányt]
-* link:ki-helyett-szeretsz/ki-helyett-szeretsz.html[Ki helyett
-  szeretsz?]
-* link:lemon-tree/lemon-tree.html[Lemon Tree]
+* link:boldog-szuletesnapot/[Boldog születésnapot!]
+* link:cant-buy-me-love/[Can't Buy Me Love]
+* link:greenfields/[Greenfields]
+* link:ha-itt-lennel-velem/[Ha itt lennél velem]
+* link:ha-lehetne/[Ha lehetne]
+* link:i-just-called-to-say-i-love-you/[I Just Called to Say I Love You]
+* link:i-only-want-to-be-with-you/[I Only Want To Be With You]
+* link:kell-meg-egy-szo/[Kell még egy szó]
+* link:keresd-meg-a-lanyt/[Keresd meg a lányt]
+* link:ki-helyett-szeretsz/[Ki helyett szeretsz?]
+* link:lemon-tree/[Lemon Tree]
 
 NOTE: I created these myself, they may not be totally correct, and they
 also may contain differences to the 'official' versions on purpose, in
