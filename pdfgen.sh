@@ -6,6 +6,6 @@ do
 	in="$in $i/$i.pdf"
 	cd $i
 	echo "DirectoryIndex $(pwd|sed 's|.*/||').html" > .htaccess
-	cd -
+	cd - >/dev/null
 done
 pdftk $in cat output ly.pdf
