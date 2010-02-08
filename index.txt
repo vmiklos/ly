@@ -1,6 +1,6 @@
 = My LilyPond snippet repository
 
-* link:ly.pdf[All in one PDF]
+* link:ly.pdf[All in one PDF] ({sys:pdfinfo ly.pdf|grep Pages:|sed \'s/.* //'} pages)
 
 Individual pages:
 

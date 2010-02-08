@@ -1,2 +1,3 @@
 index.html: index.txt ../layout.conf
-	asciidoc --conf-file=../layout.conf -a numbered -a sectids index.txt
+	./pdfgen.sh
+	asciidoc --conf-file=../layout.conf -a numbered -a sectids --unsafe index.txt
