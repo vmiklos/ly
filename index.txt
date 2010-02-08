@@ -9,6 +9,7 @@ Individual pages:
 * link:greenfields/[Greenfields]
 * link:ha-itt-lennel-velem/[Ha itt lennél velem]
 * link:ha-lehetne/[Ha lehetne]
+* link:hallelujah/[Hallelujah]
 * link:i-just-called-to-say-i-love-you/[I Just Called to Say I Love You]
 * link:i-only-want-to-be-with-you/[I Only Want To Be With You]
 * link:kell-meg-egy-szo/[Kell még egy szó]
