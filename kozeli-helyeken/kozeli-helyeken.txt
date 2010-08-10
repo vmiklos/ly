@@ -1,0 +1,15 @@
+== Bikini - Közeli helyeken
+
+image:kozeli-helyeken.png[]
+
+* link:kozeli-helyeken.pdf[PDF]
+* link:kozeli-helyeken.ogg[Ogg Vorbis]
+
+
+* link:kozeli-helyeken.midi[MIDI]
+* link:kozeli-helyeken.ps[PostScript]
+
+
+* link:kozeli-helyeken.ly[Lilypond]
+* link:kozeli-helyeken.txt[AsciiDoc]
+* link:Makefile[Makefile]
