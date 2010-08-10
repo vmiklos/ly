@@ -82,3 +82,48 @@ chExceptions = #( append
 	% avoid the indent in the first line
 	\layout{indent = 0\cm}
 }
+
+\markup {
+        \fill-line {
+                \hspace #1.0
+                \column {
+                        \line {Közeli helyeken, dombokon, hegyeken,}
+			\line {kibelezett kőbányák üregében.}
+			\line {Közeli helyeken, dombokon, hegyeken,}
+			\line {Most is visszhangzik a léptem.}
+			\line {Itt ül az idő a nyakamon,}
+			\line {Kifogy az út a lábam alól.}
+			\line {Akkor is megyek, ha nem akarok!}
+			\line {Ha nem kísér senki utamon.}
+			\line {Arcom mossa eső és szárítja a szél.}
+			\line {Az ember mindig jobbat remél.}
+			\line {Porból lettem s porrá leszek,}
+			\line {Félek, hogy a ködbe veszek.}
+                        \line { \musicglyph #"space" }
+                        \line {Közeli helyeken, dombokon, hegyeken,}
+			\line {kibelezett kőbányák üregében.}
+			\line {Közeli helyeken, dombokon, hegyeken,}
+			\line {Most is visszhangzik a léptem.}
+			\line {Itt ül az idő a nyakamon,}
+			\line {Kifogy az út a lábam alól.}
+			\line {Akkor is megyek, ha nem akarok!}
+			\line {Ha nem kísér senki utamon.}
+			\line {Arcom mossa eső és szárítja a szél.}
+			\line {Az ember mindig jobbat remél.}
+			\line {Porból lettem s porrá leszek,}
+			\line {Félek, hogy a ködbe veszek.}
+                }
+                \hspace #2
+                \column {
+			\line {Itt ül az idő a nyakamon,}
+			\line {Kifogy az út a lábam alól.}
+			\line {Akkor is megyek, ha nem akarok!}
+			\line {Ha nem kísér senki utamon.}
+			\line {Arcom mossa eső és szárítja a szél.}
+			\line {Az ember mindig jobbat remél.}
+			\line {Porból lettem s porrá leszek,}
+			\line {Félek, hogy a ködbe veszek.}
+                }
+                \hspace #1.0
+        }
+}
