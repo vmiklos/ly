@@ -1,0 +1,15 @@
+== Effata együttes - Azon a csendes éjszakán
+
+image:azon-a-csendes-ejszakan.png[]
+
+* link:azon-a-csendes-ejszakan.pdf[PDF]
+* link:azon-a-csendes-ejszakan.ogg[Ogg Vorbis]
+
+
+* link:azon-a-csendes-ejszakan.midi[MIDI]
+* link:azon-a-csendes-ejszakan.ps[PostScript]
+
+
+* link:azon-a-csendes-ejszakan.ly[Lilypond]
+* link:azon-a-csendes-ejszakan.txt[AsciiDoc]
+* link:Makefile[Makefile]
