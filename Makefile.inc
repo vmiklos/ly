@@ -5,7 +5,8 @@ all: $(NAME).html $(NAME).midi $(NAME).pdf $(NAME).png $(NAME).ps $(NAME).ogg
 
 %.midi: %.pdf
 
-%.ps: %.pdf
+%.ps: %.ly
+	lilypond --ps $<
 
 %.png: %.ly
 	lilypond --png $<
