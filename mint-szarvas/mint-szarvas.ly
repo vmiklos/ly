@@ -7,13 +7,13 @@
 
 \score {
 	<<
-	\tempo 4 = 144
 	\relative d'
 	{
+		\tempo 4 = 144
 		\key g \major
 		\time 4/4
 		r4 d4 g4 a4 | b1 | r4 a4 g4 e8 d8( | d1) |
-		r4 d4 g4 fis8 g8( | g1) | r4 a4 b4 c8 b8( | b8) a8( a2.) |
+		r4 d4 g4 fis8 g8( | g1) | r4 a4 b4 c8( b8 | b8) a8( a2.) |
 		r4 a4 b4 c4 | d1 | r8 c8 c8 b8 a4 g8 b8( | b1) |
 		r4 r8 a8 g4 e4 | d1 | r4 d4 g4 fis8 g8( | g1)
 	}
