@@ -1,11 +1,15 @@
 #!/bin/sh -e
 
 in=""
-for i in $(grep link: index.txt |grep -v ly.pdf |sed 's|.*:\(.*\)/.*|\1|')
+for i in $(git ls-files|grep ly$|sed 's|/.*||')
 do
+	if [ $i == i-just-called-to-say-i-love-you -o $i == ki-helyett-szeretsz ]; then
+		# FIXME
+		continue;
+	fi
 	in="$in $i/$i.pdf"
 	cd $i
-	echo "DirectoryIndex $(pwd|sed 's|.*/||').html" > .htaccess
-	cd - >/dev/null
+	make $i.pdf
+	cd -
 done
 pdftk $in cat output ly.pdf
