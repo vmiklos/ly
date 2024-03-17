@@ -7,6 +7,7 @@
 
 \score {
 	<<
+	\tempo 4 = 144
 	\relative d'
 	{
 		\key g \major
@@ -23,6 +24,7 @@
 		mi- kor jössz el, hogy el- vi- gyél?
 	}
 	>>
+	\midi{}
 	% avoid the indent in the first line
 	\layout{indent = 0\cm}
 }
