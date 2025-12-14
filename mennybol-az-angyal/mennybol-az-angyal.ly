@@ -10,9 +10,11 @@
 	\relative c'
 	{
 		\time 4/4
-		\key f \major
-		f4 f8 e8 f4 c4 | a'4 a8 g8 a4 f4 | a4 d4 c2 | a4 d4 c2 |
-		c4 c8 d8 c4 a4 | bes4 bes8 c8 bes4 g4 | a4 g4 f2 | a4 g4 f2
+		% original: https://csecsy.hu/system/files/2019-04/mennybol_az_angyal.pdf
+		% this is tweaked to be nicer on a trumpet
+		\key c \major
+		c4 c8 b8 c4 g4 | e'4 e8 d8 e4 c4 | e4 a4 g2 | e4 a4 g2 |
+		g4 g8 a8 g4 e4 | f4 f8 g8 f4 d4 | e4 d4 c2 | e4 d4 c2
 	}
 	\addlyrics {
 	  	Menny- ből az an- gyal el- jött hoz- zá- tok, pász- to- rok, pász- to- rok!
@@ -21,4 +23,5 @@
 	>>
 	% avoid the indent in the first line
 	\layout{indent = 0\cm}
+	%\midi{}
 }
